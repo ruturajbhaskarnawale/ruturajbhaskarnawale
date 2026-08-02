@@ -10,12 +10,20 @@
 
 ---
 
-### 🏆 Executive Summary & Impact Highlights
+### 📊 AI Engineering Summary & Portfolio Highlights
 
-| 🎓 Academic Excellence | 🚀 Production AI Platforms | 📜 Research & Publications | ⚡ Annual Activity |
-| :---: | :---: | :---: | :---: |
-| **SGPA 9.40** (B.Sc CS) | **4 Enterprise AI Systems** | **National Robotics & AI Conference** | **1,668+ Contributions** |
+<br>
 
+<img src="./ai-info-card.svg" width="860" alt="Ruturaj Nawale - AI Engineer Info Graphic" />
+
+</div>
+
+<br>
+
+## 🤖 Multi-Model AI Pipeline Architecture
+
+<div align="center">
+  <img src="./ai-pipeline.svg" width="860" alt="Ruturaj Nawale - AI Pipeline Architecture" />
 </div>
 
 <br>
@@ -29,14 +37,6 @@
 | **Predictive Analytics & Fraud AI** | `XGBoost` • `Isolation Forest` • `Prophet` • `ARIMA` • `Risk Scoring Engines` • `Anomaly Detection` |
 | **Backend & MLOps Infrastructure** | `Python` • `FastAPI` • `REST APIs` • `Polars` • `Pandas` • `BeautifulSoup` • `Selenium` • `Playwright` |
 | **Databases & Tools** | `MSSQL Server` • `PostgreSQL` • `SQLite` • `JSON Pipelines` • `Git` • `Docker` |
-
-<br>
-
-## 🤖 Multi-Model AI Pipeline Architecture
-
-<div align="center">
-  <img src="./ai-pipeline.svg" width="860" alt="Ruturaj Nawale - AI Pipeline Architecture" />
-</div>
 
 <br>
 
@@ -119,5 +119,5 @@
 ---
 
 <div align="center">
-  <sub>Designed & Developed by <b>Ruturaj Bhaskar Nawale</b> • AI Engineer</sub>
+  <sub>Designed &amp; Developed by <b>Ruturaj Bhaskar Nawale</b> • AI Engineer</sub>
 </div>
