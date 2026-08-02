@@ -1,55 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" width="860" height="380">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="860" height="420">
   <style>
     .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; }
     .header-bar { fill: #161b22; stroke: #30363d; stroke-width: 1px; }
-    .title { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 16px; fill: #58a6ff; font-weight: 700; }
-    .subtitle { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; fill: #8b949e; }
+    .title { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 15px; fill: #58a6ff; font-weight: 700; }
+    .subtitle { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10.5px; fill: #8b949e; }
     .card-box { fill: #161b22; stroke: #30363d; stroke-width: 1.5px; rx: 6px; }
-    .card-title { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; fill: #79c0ff; font-weight: 600; }
-    .card-sub { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10px; fill: #c9d1d9; }
+    .card-title { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11.5px; fill: #79c0ff; font-weight: 600; }
+    .card-sub { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9.5px; fill: #c9d1d9; }
     .badge-bg { fill: #21262d; rx: 4px; }
-    .badge-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10px; fill: #7ee787; font-weight: 600; }
-    .stat-val { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 18px; fill: #58a6ff; font-weight: 700; }
-    .stat-lbl { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9.5px; fill: #8b949e; }
+    .badge-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9.5px; fill: #7ee787; font-weight: 600; }
+    .stat-val { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 14px; fill: #58a6ff; font-weight: 700; }
+    .stat-lbl { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9px; fill: #8b949e; }
   </style>
-  <rect class="bg" width="860" height="380" rx="8" />
-  <rect class="header-bar" x="0" y="0" width="860" height="65" rx="8" />
-  <text class="title" x="24" y="28">RUTURAJ BHASKAR NAWALE</text>
-  <text class="subtitle" x="24" y="48">Production AI Engineer | Computer Vision, Document AI (OCR) &amp; Deepfake Detection | SGPA: 9.40</text>
-  <text class="stat-val" x="540" y="28" text-anchor="middle">9.40 SGPA</text>
-  <text class="stat-lbl" x="540" y="45" text-anchor="middle">B.Sc Computer Science</text>
-  <text class="stat-val" x="618" y="28" text-anchor="middle">4 Platforms</text>
-  <text class="stat-lbl" x="618" y="45" text-anchor="middle">Production AI Systems</text>
-  <text class="stat-val" x="696" y="28" text-anchor="middle">Robotics &amp; AI</text>
-  <text class="stat-lbl" x="696" y="45" text-anchor="middle">Conference Publication</text>
-  <text class="stat-val" x="774" y="28" text-anchor="middle">1,668+</text>
-  <text class="stat-lbl" x="774" y="45" text-anchor="middle">GitHub Contributions</text>
-  <rect class="card-box" x="20" y="80" width="395" height="130" rx="6" />
-  <text class="card-title" x="34" y="104">[1] DEEPFAKE DETECTION &amp; MEDIA AUTHENTICITY</text>
-  <line x1="34" y1="112" x2="401" y2="112" stroke="#30363d" stroke-width="1" />
-  <text class="card-sub" x="34" y="132">Multi-model ensemble (EfficientNet + ViT + XceptionNet + InsightFace)</text>
-  <text class="card-sub" x="34" y="148">for frame-level facial artifact analysis &amp; temporal anomaly detection.</text>
-  <rect class="badge-bg" x="34" y="168" width="367" height="24" />
-  <text class="badge-text" x="44" y="184">STACK: PyTorch • FastAPI • OpenCV • ViT • RetinaFace</text>
-  <rect class="card-box" x="445" y="80" width="395" height="130" rx="6" />
-  <text class="card-title" x="459" y="104">[2] MERCHANT KYC &amp; INTELLIGENT FRAUD PREVENTION</text>
-  <line x1="459" y1="112" x2="826" y2="112" stroke="#30363d" stroke-width="1" />
-  <text class="card-sub" x="459" y="132">LayoutLMv3 + TrOCR document parsing, ArcFace biometric face</text>
-  <text class="card-sub" x="459" y="148">matching, key-value extraction, &amp; image forensics for document tampering.</text>
-  <rect class="badge-bg" x="459" y="168" width="367" height="24" />
-  <text class="badge-text" x="469" y="184">STACK: LayoutLMv3 • PaddleOCR • ArcFace • XGBoost</text>
-  <rect class="card-box" x="20" y="225" width="395" height="130" rx="6" />
-  <text class="card-title" x="34" y="249">[3] AI 5V BANKING RECONCILIATION PLATFORM</text>
-  <line x1="34" y1="257" x2="401" y2="257" stroke="#30363d" stroke-width="1" />
-  <text class="card-sub" x="34" y="277">High-throughput UPI/NPCI/CBS transaction stream ingestion, Isolation Forest &amp;</text>
-  <text class="card-sub" x="34" y="293">XGBoost anomaly detection, with 5 executive KPI dashboards.</text>
-  <rect class="badge-bg" x="34" y="313" width="367" height="24" />
-  <text class="badge-text" x="44" y="329">STACK: FastAPI • Polars • Isolation Forest • Prophet</text>
-  <rect class="card-box" x="445" y="225" width="395" height="130" rx="6" />
-  <text class="card-title" x="459" y="249">[4] 360 DEGREE MERCHANT INTELLIGENCE &amp; RISK ENGINE</text>
-  <line x1="459" y1="257" x2="826" y2="257" stroke="#30363d" stroke-width="1" />
-  <text class="card-sub" x="459" y="277">Automated crawling across WHOIS/DNS/SSL, GSTIN/CIN validation, social media discovery,</text>
-  <text class="card-sub" x="459" y="293">&amp; tech fingerprinting into structured JSON with AI risk score.</text>
-  <rect class="badge-bg" x="459" y="313" width="367" height="24" />
-  <text class="badge-text" x="469" y="329">STACK: Playwright • Selenium • BeautifulSoup • FastAPI</text>
+  <rect class="bg" width="860" height="420" rx="8" />
+  <rect class="header-bar" x="0" y="0" width="860" height="70" rx="8" />
+  <text class="title" x="20" y="28">RUTURAJ BHASKAR NAWALE</text>
+  <text class="subtitle" x="20" y="50">Production AI Engineer | Computer Vision, Document AI (OCR) &amp; Deepfake Detection</text>
+  <text class="stat-val" x="450" y="30" text-anchor="middle">9.40 SGPA</text>
+  <text class="stat-lbl" x="450" y="48" text-anchor="middle">B.Sc CS</text>
+  <text class="stat-val" x="550" y="30" text-anchor="middle">4 AI Systems</text>
+  <text class="stat-lbl" x="550" y="48" text-anchor="middle">Production</text>
+  <text class="stat-val" x="665" y="30" text-anchor="middle">Robotics &amp; AI</text>
+  <text class="stat-lbl" x="665" y="48" text-anchor="middle">Conference '25</text>
+  <text class="stat-val" x="780" y="30" text-anchor="middle">1,668+</text>
+  <text class="stat-lbl" x="780" y="48" text-anchor="middle">Contributions</text>
+  <rect class="card-box" x="20" y="85" width="395" height="150" rx="6" />
+  <text class="card-title" x="34" y="111">[1] DEEPFAKE DETECTION &amp; AUTHENTICITY</text>
+  <line x1="34" y1="121" x2="401" y2="121" stroke="#30363d" stroke-width="1" />
+  <text class="card-sub" x="34" y="143">Multi-model ensemble (EfficientNet, ViT, XceptionNet)</text>
+  <text class="card-sub" x="34" y="161">for frame-level facial artifact analysis &amp; anomalies.</text>
+  <rect class="badge-bg" x="34" y="189" width="367" height="28" />
+  <text class="badge-text" x="44" y="207">STACK: PyTorch • FastAPI • OpenCV • ViT • RetinaFace</text>
+  <rect class="card-box" x="445" y="85" width="395" height="150" rx="6" />
+  <text class="card-title" x="459" y="111">[2] MERCHANT KYC &amp; FRAUD PREVENTION</text>
+  <line x1="459" y1="121" x2="826" y2="121" stroke="#30363d" stroke-width="1" />
+  <text class="card-sub" x="459" y="143">LayoutLMv3 + TrOCR document parsing, ArcFace face</text>
+  <text class="card-sub" x="459" y="161">matching, key-value extraction &amp; metadata forensics.</text>
+  <rect class="badge-bg" x="459" y="189" width="367" height="28" />
+  <text class="badge-text" x="469" y="207">STACK: LayoutLMv3 • PaddleOCR • ArcFace • XGBoost</text>
+  <rect class="card-box" x="20" y="250" width="395" height="150" rx="6" />
+  <text class="card-title" x="34" y="276">[3] AI 5V BANKING RECONCILIATION PLATFORM</text>
+  <line x1="34" y1="286" x2="401" y2="286" stroke="#30363d" stroke-width="1" />
+  <text class="card-sub" x="34" y="308">High-throughput UPI/NPCI/CBS transaction stream</text>
+  <text class="card-sub" x="34" y="326">ingestion with Isolation Forest &amp; XGBoost anomaly AI.</text>
+  <rect class="badge-bg" x="34" y="354" width="367" height="28" />
+  <text class="badge-text" x="44" y="372">STACK: FastAPI • Polars • Isolation Forest • Prophet</text>
+  <rect class="card-box" x="445" y="250" width="395" height="150" rx="6" />
+  <text class="card-title" x="459" y="276">[4] 360 MERCHANT INTELLIGENCE &amp; RISK ENGINE</text>
+  <line x1="459" y1="286" x2="826" y2="286" stroke="#30363d" stroke-width="1" />
+  <text class="card-sub" x="459" y="308">Automated crawling across WHOIS/DNS/SSL &amp; GSTIN</text>
+  <text class="card-sub" x="459" y="326">validation into structured JSON with AI risk score.</text>
+  <rect class="badge-bg" x="459" y="354" width="367" height="28" />
+  <text class="badge-text" x="469" y="372">STACK: Playwright • Selenium • BeautifulSoup • FastAPI</text>
 </svg>
