@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 260" width="860" height="260">
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; }
+    .title { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 13px; fill: #58a6ff; font-weight: 600; }
+    .box { fill: #161b22; stroke: #30363d; stroke-width: 1.5px; rx: 6px; }
+    .box-active { fill: #1c2128; stroke: #58a6ff; stroke-width: 2px; rx: 6px; }
+    .node-title { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; fill: #58a6ff; font-weight: 600; }
+    .node-sub { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9.5px; fill: #8b949e; }
+    .flow-line { stroke: #30363d; stroke-width: 2px; stroke-dasharray: 4; animation: dashFlow 2s linear infinite; }
+    .pulse-dot { fill: #39d353; animation: pulse 1.5s ease-in-out infinite alternate; }
+    .tag { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9px; fill: #7ee787; font-weight: bold; }
+    @keyframes dashFlow { from { stroke-dashoffset: 16; } to { stroke-dashoffset: 0; } }
+    @keyframes pulse { from { opacity: 0.4; r: 3; } to { opacity: 1; r: 5; } }
+  </style>
+  <rect class="bg" width="860" height="260" rx="8" />
+  <text class="title" x="20" y="30">🤖 MULTI-MODEL DEEPFAKE & DOCUMENT AI PIPELINE ARCHITECTURE</text>
+  <rect class="box" x="20" y="60" width="145" height="140" rx="6" />
+  <text class="node-title" x="32" y="84" fill="#79c0ff">1. Media Ingestion</text>
+  <line x1="32" y1="92" x2="153" y2="92" stroke="#30363d" stroke-width="1" />
+  <text class="node-sub" x="32" y="112">• Images / Video Streams</text>
+  <text class="node-sub" x="32" y="134">• Frame Alignment</text>
+  <text class="node-sub" x="32" y="156">• RetinaFace Detection</text>
+  <rect class="box" x="190" y="60" width="155" height="140" rx="6" />
+  <text class="node-title" x="202" y="84" fill="#d2a8ff">2. Document AI & OCR</text>
+  <line x1="202" y1="92" x2="333" y2="92" stroke="#30363d" stroke-width="1" />
+  <text class="node-sub" x="202" y="112">• LayoutLMv3 Parsing</text>
+  <text class="node-sub" x="202" y="134">• PaddleOCR + TrOCR</text>
+  <text class="node-sub" x="202" y="156">• Key-Value Extraction</text>
+  <rect class="box" x="370" y="60" width="165" height="140" rx="6" />
+  <text class="node-title" x="382" y="84" fill="#ffa657">3. Deep Feature AI</text>
+  <line x1="382" y1="92" x2="523" y2="92" stroke="#30363d" stroke-width="1" />
+  <text class="node-sub" x="382" y="112">• EfficientNet & ViT</text>
+  <text class="node-sub" x="382" y="134">• XceptionNet Traces</text>
+  <text class="node-sub" x="382" y="156">• InsightFace Embeddings</text>
+  <rect class="box" x="560" y="60" width="140" height="140" rx="6" />
+  <text class="node-title" x="572" y="84" fill="#ff7b72">4. Ensemble & Risk</text>
+  <line x1="572" y1="92" x2="688" y2="92" stroke="#30363d" stroke-width="1" />
+  <text class="node-sub" x="572" y="112">• Temporal Anomalies</text>
+  <text class="node-sub" x="572" y="134">• XGBoost Classifier</text>
+  <text class="node-sub" x="572" y="156">• Biometric Match</text>
+  <rect class="box" x="725" y="60" width="115" height="140" rx="6" />
+  <text class="node-title" x="737" y="84" fill="#7ee787">5. Outcome</text>
+  <line x1="737" y1="92" x2="828" y2="92" stroke="#30363d" stroke-width="1" />
+  <text class="node-sub" x="737" y="112">• Authentic ✅</text>
+  <text class="node-sub" x="737" y="134">• Deepfake ❌</text>
+  <text class="node-sub" x="737" y="156">• Fraud Risk Score</text>
+  <line x1="165" y1="130.0" x2="190" y2="130.0" class="flow-line" stroke="#58a6ff" />
+  <circle cx="177.5" cy="130.0" class="pulse-dot" />
+  <line x1="345" y1="130.0" x2="370" y2="130.0" class="flow-line" stroke="#58a6ff" />
+  <circle cx="357.5" cy="130.0" class="pulse-dot" />
+  <line x1="535" y1="130.0" x2="560" y2="130.0" class="flow-line" stroke="#58a6ff" />
+  <circle cx="547.5" cy="130.0" class="pulse-dot" />
+  <line x1="700" y1="130.0" x2="725" y2="130.0" class="flow-line" stroke="#58a6ff" />
+  <circle cx="712.5" cy="130.0" class="pulse-dot" />
+  <text class="node-sub" x="20" y="242">⚡ Latency: &lt;150ms/frame | Real-Time Inference | End-to-End PyTorch &amp; FastAPI Pipeline</text>
+</svg>

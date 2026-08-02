@@ -9,14 +9,15 @@ def generate_info_card(output_path="info-card.svg"):
 
     card_data = [
         ("USER", "ruturajbhaskarnawale (Ruturaj Nawale)"),
-        ("ROLE", "AI Engineer | Computer Vision & OCR"),
-        ("NOW", "Deepfake Detection & LLM Risk Scoring"),
-        ("PREV", "Production AI Pipelines for Banking & Risk"),
-        ("STACK", "Python, PyTorch, FastAPI, TypeScript, OpenCV"),
-        ("HIGHLIGHTS", "1,668+ Contributions • LLMs • Fraud Risk"),
-        ("LOCATION", "Navi Mumbai, India"),
+        ("ROLE", "Production AI Engineer (CV, OCR, LLMs)"),
+        ("EDUCATION", "B.Sc Computer Science | SGPA: 9.40"),
+        ("EXPERIENCE", "AI Engineer @ Jode Technologies"),
+        ("SPECIALTY", "Deepfake Detection & Document AI (KYC)"),
+        ("STACK", "PyTorch, FastAPI, LayoutLMv3, OpenCV, ViT"),
+        ("PUBLICATIONS", "National Conf. on Robotics & AI (2025)"),
+        ("LOCATION", "Navi Mumbai, Maharashtra, India"),
         ("PORTFOLIO", "ruturaj-nawale-portfolio.vercel.app"),
-        ("STATUS", "⚡ Open for AI & Systems Engineering Roles")
+        ("STATUS", "⚡ Open for High-Impact AI & ML Roles")
     ]
 
     svg_lines = []
@@ -32,8 +33,8 @@ def generate_info_card(output_path="info-card.svg"):
     svg_lines.append('    .prompt-at { fill: #8b949e; }')
     svg_lines.append('    .prompt-host { fill: #bc8cff; font-weight: bold; }')
     svg_lines.append('    .prompt-sep { fill: #8b949e; }')
-    svg_lines.append('    .key { fill: #79c0ff; font-weight: 600; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; }')
-    svg_lines.append('    .val { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; }')
+    svg_lines.append('    .key { fill: #79c0ff; font-weight: 600; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11.5px; }')
+    svg_lines.append('    .val { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11.5px; }')
     svg_lines.append('    .separator { stroke: #30363d; stroke-width: 1px; }')
 
     if not is_static:
@@ -53,51 +54,51 @@ def generate_info_card(output_path="info-card.svg"):
     svg_lines.append('  <circle class="dot-red" cx="16" cy="16" r="5" />')
     svg_lines.append('  <circle class="dot-yellow" cx="32" cy="16" r="5" />')
     svg_lines.append('  <circle class="dot-green" cx="48" cy="16" r="5" />')
-    svg_lines.append(f'  <text class="title-text" x="{width/2}" y="20" text-anchor="middle">neofetch --user ruturajbhaskarnawale</text>')
+    svg_lines.append(f'  <text class="title-text" x="{width/2}" y="20" text-anchor="middle">neofetch --ai-engineer ruturajbhaskarnawale</text>')
 
-    y = 60
+    y = 56
     stagger_delay = 0.1
 
     # Prompt Header
     anim_style = f'style="animation-delay: {round(stagger_delay, 2)}s;"' if not is_static else ''
     svg_lines.append(f'  <g class="animate-line" {anim_style}>')
-    svg_lines.append(f'    <text x="24" y="{y}" class="val">')
+    svg_lines.append(f'    <text x="20" y="{y}" class="val">')
     svg_lines.append('      <tspan class="prompt-user">ruturaj</tspan>')
     svg_lines.append('      <tspan class="prompt-at">@</tspan>')
-    svg_lines.append('      <tspan class="prompt-host">github</tspan>')
+    svg_lines.append('      <tspan class="prompt-host">ai-workstation</tspan>')
     svg_lines.append('      <tspan class="prompt-sep">-----------------------------</tspan>')
     svg_lines.append('    </text>')
     svg_lines.append('  </g>')
 
-    y += 30
-    stagger_delay += 0.12
+    y += 28
+    stagger_delay += 0.1
 
     # Key / Value lines
     for key, val in card_data:
         anim_style = f'style="animation-delay: {round(stagger_delay, 2)}s;"' if not is_static else ''
         svg_lines.append(f'  <g class="animate-line" {anim_style}>')
-        svg_lines.append(f'    <text x="24" y="{y}">')
-        svg_lines.append(f'      <tspan class="key">{key.ljust(10)}:</tspan> ')
+        svg_lines.append(f'    <text x="20" y="{y}">')
+        svg_lines.append(f'      <tspan class="key">{key.ljust(11)}:</tspan> ')
         svg_lines.append(f'      <tspan class="val">{val}</tspan>')
         svg_lines.append('    </text>')
         svg_lines.append('  </g>')
-        y += 32
-        stagger_delay += 0.1
+        y += 30
+        stagger_delay += 0.08
 
     # Separator rule
     anim_style = f'style="animation-delay: {round(stagger_delay, 2)}s;"' if not is_static else ''
-    y += 10
+    y += 6
     svg_lines.append(f'  <g class="animate-line" {anim_style}>')
-    svg_lines.append(f'    <line x1="24" y1="{y}" x2="{width - 24}" y2="{y}" class="separator" />')
+    svg_lines.append(f'    <line x1="20" y1="{y}" x2="{width - 20}" y2="{y}" class="separator" />')
     svg_lines.append('  </g>')
 
-    y += 30
-    stagger_delay += 0.1
+    y += 26
+    stagger_delay += 0.08
 
-    # Color Palette blocks (classic Neofetch look)
+    # Color Palette blocks
     colors = ["#21262d", "#ff7b72", "#7ee787", "#ffa657", "#79c0ff", "#d2a8ff", "#a5d6ff", "#f0f6fc"]
     svg_lines.append(f'  <g class="animate-line" style="animation-delay: {round(stagger_delay, 2)}s;">')
-    svg_lines.append(f'    <g transform="translate(24, {y})">')
+    svg_lines.append(f'    <g transform="translate(20, {y})">')
     for i, c in enumerate(colors):
         svg_lines.append(f'      <rect x="{i*30}" y="0" width="24" height="14" fill="{c}" rx="2" />')
     svg_lines.append('    </g>')
