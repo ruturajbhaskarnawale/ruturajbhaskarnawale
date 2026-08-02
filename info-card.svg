@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 530" width="490" height="530">
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; }
+    .title-bar { fill: #161b22; }
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .title-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; fill: #8b949e; font-weight: 600; }
+    .prompt-user { fill: #58a6ff; font-weight: bold; }
+    .prompt-at { fill: #8b949e; }
+    .prompt-host { fill: #bc8cff; font-weight: bold; }
+    .prompt-sep { fill: #8b949e; }
+    .key { fill: #79c0ff; font-weight: 600; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; }
+    .val { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; }
+    .separator { stroke: #30363d; stroke-width: 1px; }
+    .animate-line { opacity: 0; animation: fadeInSlide 0.4s ease-out forwards; }
+    @keyframes fadeInSlide {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  <rect class="bg" width="490" height="530" rx="8" />
+  <path class="title-bar" d="M 0 8 A 8 8 0 0 1 8 0 L 482 0 A 8 8 0 0 1 490 8 L 490 32 L 0 32 Z" />
+  <circle class="dot-red" cx="16" cy="16" r="5" />
+  <circle class="dot-yellow" cx="32" cy="16" r="5" />
+  <circle class="dot-green" cx="48" cy="16" r="5" />
+  <text class="title-text" x="245.0" y="20" text-anchor="middle">neofetch --user ruturajbhaskarnawale</text>
+  <g class="animate-line" style="animation-delay: 0.1s;">
+    <text x="24" y="60" class="val">
+      <tspan class="prompt-user">ruturaj</tspan>
+      <tspan class="prompt-at">@</tspan>
+      <tspan class="prompt-host">github</tspan>
+      <tspan class="prompt-sep">-----------------------------</tspan>
+    </text>
+  </g>
+  <g class="animate-line" style="animation-delay: 0.22s;">
+    <text x="24" y="90">
+      <tspan class="key">USER      :</tspan> 
+      <tspan class="val">ruturajbhaskarnawale (Ruturaj Nawale)</tspan>
+    </text>
+  </g>
+  <g class="animate-line" style="animation-delay: 0.32s;">
+    <text x="24" y="122">
+      <tspan class="key">ROLE      :</tspan> 
+      <tspan class="val">AI Engineer | Computer Vision & OCR</tspan>
+    </text>
+  </g>
+  <g class="animate-line" style="animation-delay: 0.42s;">
+    <text x="24" y="154">
+      <tspan class="key">NOW       :</tspan> 
+      <tspan class="val">Deepfake Detection & LLM Risk Scoring</tspan>
+    </text>
+  </g>
+  <g class="animate-line" style="animation-delay: 0.52s;">
+    <text x="24" y="186">
+      <tspan class="key">PREV      :</tspan> 
+      <tspan class="val">Production AI Pipelines for Banking & Risk</tspan>
+    </text>
+  </g>
+  <g class="animate-line" style="animation-delay: 0.62s;">
+    <text x="24" y="218">
+      <tspan class="key">STACK     :</tspan> 
+      <tspan class="val">Python, PyTorch, FastAPI, TypeScript, OpenCV</tspan>
+    </text>
+  </g>
+  <g class="animate-line" style="animation-delay: 0.72s;">
+    <text x="24" y="250">
+      <tspan class="key">HIGHLIGHTS:</tspan> 
+      <tspan class="val">1,668+ Contributions • LLMs • Fraud Risk</tspan>
+    </text>
+  </g>
+  <g class="animate-line" style="animation-delay: 0.82s;">
+    <text x="24" y="282">
+      <tspan class="key">LOCATION  :</tspan> 
+      <tspan class="val">Navi Mumbai, India</tspan>
+    </text>
+  </g>
+  <g class="animate-line" style="animation-delay: 0.92s;">
+    <text x="24" y="314">
+      <tspan class="key">PORTFOLIO :</tspan> 
+      <tspan class="val">ruturaj-nawale-portfolio.vercel.app</tspan>
+    </text>
+  </g>
+  <g class="animate-line" style="animation-delay: 1.02s;">
+    <text x="24" y="346">
+      <tspan class="key">STATUS    :</tspan> 
+      <tspan class="val">⚡ Open for AI & Systems Engineering Roles</tspan>
+    </text>
+  </g>
+  <g class="animate-line" style="animation-delay: 1.12s;">
+    <line x1="24" y1="388" x2="466" y2="388" class="separator" />
+  </g>
+  <g class="animate-line" style="animation-delay: 1.22s;">
+    <g transform="translate(24, 418)">
+      <rect x="0" y="0" width="24" height="14" fill="#21262d" rx="2" />
+      <rect x="30" y="0" width="24" height="14" fill="#ff7b72" rx="2" />
+      <rect x="60" y="0" width="24" height="14" fill="#7ee787" rx="2" />
+      <rect x="90" y="0" width="24" height="14" fill="#ffa657" rx="2" />
+      <rect x="120" y="0" width="24" height="14" fill="#79c0ff" rx="2" />
+      <rect x="150" y="0" width="24" height="14" fill="#d2a8ff" rx="2" />
+      <rect x="180" y="0" width="24" height="14" fill="#a5d6ff" rx="2" />
+      <rect x="210" y="0" width="24" height="14" fill="#f0f6fc" rx="2" />
+    </g>
+  </g>
+</svg>
