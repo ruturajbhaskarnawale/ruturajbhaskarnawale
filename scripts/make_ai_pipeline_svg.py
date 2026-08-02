@@ -11,12 +11,10 @@ def generate_ai_pipeline_svg(output_path="ai-pipeline.svg"):
     svg_lines.append('    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; }')
     svg_lines.append('    .title { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 13px; fill: #58a6ff; font-weight: 600; }')
     svg_lines.append('    .box { fill: #161b22; stroke: #30363d; stroke-width: 1.5px; rx: 6px; }')
-    svg_lines.append('    .box-active { fill: #1c2128; stroke: #58a6ff; stroke-width: 2px; rx: 6px; }')
     svg_lines.append('    .node-title { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; fill: #58a6ff; font-weight: 600; }')
     svg_lines.append('    .node-sub { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9.5px; fill: #8b949e; }')
     svg_lines.append('    .flow-line { stroke: #30363d; stroke-width: 2px; stroke-dasharray: 4; animation: dashFlow 2s linear infinite; }')
     svg_lines.append('    .pulse-dot { fill: #39d353; animation: pulse 1.5s ease-in-out infinite alternate; }')
-    svg_lines.append('    .tag { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9px; fill: #7ee787; font-weight: bold; }')
     svg_lines.append('    @keyframes dashFlow { from { stroke-dashoffset: 16; } to { stroke-dashoffset: 0; } }')
     svg_lines.append('    @keyframes pulse { from { opacity: 0.4; r: 3; } to { opacity: 1; r: 5; } }')
     svg_lines.append('  </style>')
@@ -25,7 +23,7 @@ def generate_ai_pipeline_svg(output_path="ai-pipeline.svg"):
     svg_lines.append(f'  <rect class="bg" width="{width}" height="{height}" rx="8" />')
 
     # Title
-    svg_lines.append('  <text class="title" x="20" y="30">🤖 MULTI-MODEL DEEPFAKE & DOCUMENT AI PIPELINE ARCHITECTURE</text>')
+    svg_lines.append('  <text class="title" x="20" y="30">[AI PIPELINE] MULTI-MODEL DEEPFAKE &amp; DOCUMENT AI ARCHITECTURE</text>')
 
     # Pipeline Nodes
     nodes = [
@@ -33,7 +31,7 @@ def generate_ai_pipeline_svg(output_path="ai-pipeline.svg"):
         {"x": 190, "y": 60, "w": 155, "h": 140, "title": "2. Document AI & OCR", "sub1": "LayoutLMv3 Parsing", "sub2": "PaddleOCR + TrOCR", "sub3": "Key-Value Extraction", "color": "#d2a8ff"},
         {"x": 370, "y": 60, "w": 165, "h": 140, "title": "3. Deep Feature AI", "sub1": "EfficientNet & ViT", "sub2": "XceptionNet Traces", "sub3": "InsightFace Embeddings", "color": "#ffa657"},
         {"x": 560, "y": 60, "w": 140, "h": 140, "title": "4. Ensemble & Risk", "sub1": "Temporal Anomalies", "sub2": "XGBoost Classifier", "sub3": "Biometric Match", "color": "#ff7b72"},
-        {"x": 725, "y": 60, "w": 115, "h": 140, "title": "5. Outcome", "sub1": "Authentic ✅", "sub2": "Deepfake ❌", "sub3": "Fraud Risk Score", "color": "#7ee787"},
+        {"x": 725, "y": 60, "w": 115, "h": 140, "title": "5. Outcome", "sub1": "[REAL] Authentic", "sub2": "[FAKE] Deepfake", "sub3": "Fraud Risk Score", "color": "#7ee787"},
     ]
 
     for n in nodes:
@@ -55,7 +53,7 @@ def generate_ai_pipeline_svg(output_path="ai-pipeline.svg"):
         svg_lines.append(f'  <circle cx="{(x1 + x2)/2}" cy="{y1}" class="pulse-dot" />')
 
     # Footer status
-    svg_lines.append(f'  <text class="node-sub" x="20" y="{height - 18}">⚡ Latency: &lt;150ms/frame | Real-Time Inference | End-to-End PyTorch &amp; FastAPI Pipeline</text>')
+    svg_lines.append(f'  <text class="node-sub" x="20" y="{height - 18}">Latency: &lt;150ms/frame | Real-Time Inference | End-to-End PyTorch &amp; FastAPI Pipeline</text>')
 
     svg_lines.append('</svg>')
 

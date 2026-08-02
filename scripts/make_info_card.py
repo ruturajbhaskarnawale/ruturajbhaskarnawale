@@ -17,7 +17,7 @@ def generate_info_card(output_path="info-card.svg"):
         ("PUBLICATIONS", "National Conf. on Robotics & AI (2025)"),
         ("LOCATION", "Navi Mumbai, Maharashtra, India"),
         ("PORTFOLIO", "ruturaj-nawale-portfolio.vercel.app"),
-        ("STATUS", "⚡ Open for High-Impact AI & ML Roles")
+        ("STATUS", ">> Open for High-Impact AI & ML Roles")
     ]
 
     svg_lines = []
@@ -79,7 +79,7 @@ def generate_info_card(output_path="info-card.svg"):
         svg_lines.append(f'  <g class="animate-line" {anim_style}>')
         svg_lines.append(f'    <text x="20" y="{y}">')
         svg_lines.append(f'      <tspan class="key">{key.ljust(11)}:</tspan> ')
-        svg_lines.append(f'      <tspan class="val">{val}</tspan>')
+        svg_lines.append(f'      <tspan class="val">{val.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")}</tspan>')
         svg_lines.append('    </text>')
         svg_lines.append('  </g>')
         y += 30
